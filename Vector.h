@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -12,9 +13,12 @@ public:
 	Vector(const Vector&);
 	string getstate();
 	void add();
-	void set();
+	void setelement(int,int);
+	int getelement(int);
 	void get();
 	void print_console();
 	void sum();
 	void multiplication();
+	void show();
+	void initialized();
 };
